@@ -22,6 +22,7 @@ export async function upload(file: File) {
         Bucket: process.env.AWS_BUCKET_NAME,
         Body,
         Key,
+        ContentType: file.type,
     });
 
     try {

@@ -85,12 +85,12 @@ function Footer() {
                 >
                     Privacy
                 </Link>
-                <Link
+                <a
                     className="text-xs hover:underline underline-offset-4"
-                    href="https://github.com"
+                    href="https://github.com/Sam-C137/bun-file-server"
                 >
                     <Github className="h-4 w-4" />
-                </Link>
+                </a>
             </nav>
         </footer>
     );
